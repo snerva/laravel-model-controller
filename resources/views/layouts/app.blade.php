@@ -18,12 +18,12 @@
 <body>
     <header>
         <nav class="nav justify-content-center  ">
-            <a class="nav-link active" href="#" aria-current="page">Active link</a>
-            <a class="nav-link" href="#">Link</a>
-            <a class="nav-link disabled" href="#">Disabled link</a>
+            <a class="nav-link active" href="#" aria-current="page">Movies</a>
+            <a class="nav-link" href="#">Film</a>
+            <a class="nav-link" href="#">Contact</a>
         </nav>
     </header>
-    <main class="bg-light">
+    <main class="bg-dark">
         @yield('content')
     </main>
     <footer></footer>
