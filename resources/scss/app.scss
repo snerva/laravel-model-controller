@@ -1,1 +1,19 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    .navbar {
+        a {
+            padding: 1rem;
+
+            &.active {
+                border-bottom: 2px solid #74797d;
+            }
+        }
+    }
+}

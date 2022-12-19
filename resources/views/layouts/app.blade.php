@@ -16,17 +16,15 @@
 </head>
 
 <body>
-    <header>
-        <nav class="nav justify-content-center  ">
-            <a class="nav-link active" href="#" aria-current="page">Movies</a>
-            <a class="nav-link" href="#">Film</a>
-            <a class="nav-link" href="#">Contact</a>
-        </nav>
-    </header>
-    <main class="bg-dark">
+    @include('partials.header')
+
+
+    <main class="bg-dark py-5">
         @yield('content')
     </main>
-    <footer></footer>
+
+    @include('partials.footer')
+
 </body>
 
 </html>

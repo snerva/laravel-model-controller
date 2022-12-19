@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<h1 class="text-white">Movies</h1>
 <div class="container">
+    <h1 class="text-white pb-4">Movies</h1>
     <div class="row row-cols-5 g-4">
         @forelse($movies as $movie)
         <div class="col">
